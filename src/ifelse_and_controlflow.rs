@@ -52,7 +52,7 @@ fn main() {
     if (food != "cookie") {
         println!("You don't like cookies? Damn.");
     }
-    if (food == ("cookie" || "burger") {
+    if (food == "cookie" || "burger") {
         println!("food is either cookie or burger");
     } else {
         println!("Cookie is something else");
