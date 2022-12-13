@@ -12,10 +12,10 @@ fn main() {
     println!("{}", cond_a);
     // this code will produce errors, so to fix this we can implement the code below this broken code
     // this code will produce errors due to the numbers being different data types
-    let cond_b = 2 < 2.2;
-    println!("{}", cond_b)
+    let cond_b = 2 < 2.2; // <-- Incorrect
+    println!("{}", cond_b) //
     // correct code
-    let cond_c = (2 as f32) < 2.2;
+    let cond_c = (2 as f32) < 2.2; // <-- Correct
     println!("{}", cond_c)
 
     // compund conditions
