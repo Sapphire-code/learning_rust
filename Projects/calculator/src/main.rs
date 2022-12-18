@@ -8,8 +8,7 @@ fn main() {
     println!("3. multiply");
     println!("4. divide");
     let mut input: String = String::new();
-    // calling the standard input function from the io module, then reading the line with ".read_line(&mut input) to allow the function to access the input value and allow the function to modify it. Then we use a .expect() function to make sure that is catches any errors that occur."
-
+    
     io::stdin().read_line(&mut input);
 
     match input.trim() {
